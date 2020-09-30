@@ -1,0 +1,29 @@
+// Main Navigation
+header
+	.container
+		nav.navbar.sticky-top.navbar-expand-lg
+			a.navbar-brand(href='#')
+				img(src='img/logo.svg' alt='logo web ke toan')
+			button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+				span.navbar-toggler-icon
+			#navbarSupportedContent.collapse.navbar-collapse
+				ul.navbar-nav.mr-auto
+					li.nav-item.active
+						a.nav-link(href='#')
+							| Home 
+							span.sr-only (current)
+					li.nav-item.dropdown
+						a#navbarDropdownMenuLink-333.nav-link.dropdown-toggle(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+							| Dịch vụ kế toán
+						.dropdown-menu.dropdown-default(aria-labelledby='navbarDropdownMenuLink-333')
+							a.dropdown-item(href='#') Tư vấn pháp lý   
+							a.dropdown-item(href='#') Dịch vụ kế toán
+							a.dropdown-item(href='#') Hóa đơn điện tử
+							a.dropdown-item(href='#') Sở hữu trí tuệ
+							a.dropdown-item(href='#') Chữ ký số - Token
+					li.nav-item
+						a.nav-link(href='#') Dịch vụ kế toán
+					li.nav-item
+						a.nav-link(href='#') tư vấn thành lập công ty
+
+// Main Navigation
