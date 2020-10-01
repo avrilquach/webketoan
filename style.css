@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Web_ToanTam';
+  src:  url('fonts/Web_ToanTam.eot?urt33c');
+  src:  url('fonts/Web_ToanTam.eot?urt33c#iefix') format('embedded-opentype'),
+    url('fonts/Web_ToanTam.ttf?urt33c') format('truetype'),
+    url('fonts/Web_ToanTam.woff?urt33c') format('woff'),
+    url('fonts/Web_ToanTam.svg?urt33c#Web_ToanTam') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Web_ToanTam' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e91a";
+}
+.icon-fastprocess:before {
+  content: "\e900";
+}
+.icon-accounting-services:before {
+  content: "\e901";
+}
+.icon-arrow:before {
+  content: "\e902";
+}
+.icon-closed:before {
+  content: "\e903";
+}
+.icon-consultant:before {
+  content: "\e904";
+}
+.icon-Costsavings:before {
+  content: "\e905";
+}
+.icon-Development-ecosystem:before {
+  content: "\e906";
+}
+.icon-face:before {
+  content: "\e907";
+}
+.icon-FreeConsultation:before {
+  content: "\e908";
+}
+.icon-google:before {
+  content: "\e909";
+}
+.icon-information-security:before {
+  content: "\e90a";
+}
+.icon-linkenin:before {
+  content: "\e90b";
+}
+.icon-menu:before {
+  content: "\e90c";
+}
+.icon-news:before {
+  content: "\e90d";
+}
+.icon-pinterest:before {
+  content: "\e90e";
+}
+.icon-price-list:before {
+  content: "\e90f";
+}
+.icon-Professional-team:before {
+  content: "\e910";
+}
+.icon-step1:before {
+  content: "\e911";
+}
+.icon-step2:before {
+  content: "\e912";
+}
+.icon-step3 .path1:before {
+  content: "\e913";
+  color: rgb(0, 0, 0);
+}
+.icon-step3 .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step3 .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step3 .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step3 .path5:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step4:before {
+  content: "\e918";
+}
+.icon-step5:before {
+  content: "\e919";
+}
