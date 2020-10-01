@@ -3,7 +3,7 @@ header
 	.container
 		nav.navbar.sticky-top.navbar-expand-lg
 			a.navbar-brand(href='#')
-				img(src='img/logo.svg' alt='logo web ke toan')
+				img(src='img/svg/logo.svg' alt='logo web ke toan')
 			button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
 				span.navbar-toggler-icon
 			#navbarSupportedContent.collapse.navbar-collapse
@@ -21,9 +21,13 @@ header
 							a.dropdown-item(href='#') Hóa đơn điện tử
 							a.dropdown-item(href='#') Sở hữu trí tuệ
 							a.dropdown-item(href='#') Chữ ký số - Token
+					li.nav-item.dropdown
+						a#navbarDropdownMenuLink-444.nav-link.dropdown-toggle(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+							| Tư vấn thành lập công ty
+						.dropdown-menu.dropdown-default(aria-labelledby='navbarDropdownMenuLink-444')
+							a.dropdown-item(href='#') ...  
 					li.nav-item
-						a.nav-link(href='#') Dịch vụ kế toán
+						a.nav-link(href='#') bảng giá
 					li.nav-item
-						a.nav-link(href='#') tư vấn thành lập công ty
-
+						a.nav-link(href='#') Tin tức
 // Main Navigation
