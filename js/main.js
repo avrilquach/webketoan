@@ -21,10 +21,10 @@ $(document).ready(function() {
     });
     var section3 = $('.main_section3');
 	section3.owlCarousel({
-			loop: true,
+			loop: false,
             nav: false,
 			items: 3,
-			autoplay: true,
+			autoplay: false,
             smartSpeed: 200,
             dots: true,
 			responsiveClass:true,
