@@ -12,7 +12,7 @@ ul li{
     padding: 60px 0;
 }
 .pad100_60{
-    padding: 100px 60px;
+    padding: 100px 60px 50px 60px;
 }
 .navbar{
     box-shadow: none;
@@ -127,6 +127,7 @@ ul li{
     font-size: 40px;
     line-height: 54px;
     padding: 0 20px;
+    text-transform: uppercase;
 }
 .heading h2 span{
     position: relative;
@@ -156,6 +157,10 @@ ul li{
 }
 .tw820{
     width: 820px;
+    margin: 0 auto;
+}
+.tw870{
+    width: 870px;
     margin: 0 auto;
 }
 .main_section1 .item{
@@ -351,7 +356,7 @@ ul li{
     box-sizing: border-box;
     border-radius: 5px !important;
     box-shadow: none;
-    margin: 0 0 15px 0;
+    margin: 15px 0 0 0;
 }
 .main_section6 .card-header{
     background: #FFFFFF;
@@ -491,6 +496,94 @@ ul li{
     width: 15px;
     height: 15px;
     background-color: #29CB75;
+}
+.main_section7{
+    position: relative;
+}
+.main_section7 img.left{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+.main_section7 img.right{
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+.main_section7 .box{
+    position: relative;
+    margin: 60px 0 0 0;
+}
+.main_section7 .box .row1{
+    position: relative;
+    z-index: 5;
+}
+.main_section7 .box .row2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 785px;
+    top: 120px;
+    z-index: 2;
+}
+.main_section7 .box .item{
+    background: url("../img/dichvu/Group.png") center center no-repeat;
+    width: 369px;
+    height: 331px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 70px;
+}
+.main_section7 .box .item p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #444444;
+    text-transform: uppercase;
+}
+.main_section7 .box .item a{
+    text-decoration: underline;
+   font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    color: #00AC1C;
+}
+.main_section7 .box .item span{
+    display: block;
+    width: 108px;
+    height: 105px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 105px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.main_section7 .box .item span.number1{
+    background: url("../img/dichvu/number1.png") center center no-repeat;
+}
+.main_section7 .box .item span.number2{
+    background: url("../img/dichvu/number2.png") center center no-repeat;
+}
+.main_section7 .box .item span.number3{
+    background: url("../img/dichvu/number3.png") center center no-repeat;
+}
+.main_section8{
+    background: url("../img/dichvu/background.png") no-repeat top center ;
+    position: relative;
+}
+.main_section8 img.left{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+.main_section8 img.right{
+    position: absolute;
+    left: 30px;
+    top: 0;
 }
 @media (min-width: 1200px){
     .container{
