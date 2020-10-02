@@ -1,0 +1,32 @@
+// Carousel Wrapper
+#carousel-example-1z.carousel.slide.carousel-fade(data-ride='carousel').main_slider2
+  // Indicators
+  ol.carousel-indicators
+    li.active(data-target='#carousel-example-1z' data-slide-to='0')
+    li(data-target='#carousel-example-1z' data-slide-to='1')
+    li(data-target='#carousel-example-1z' data-slide-to='2')
+  // /.Indicators
+  // Slides
+  .carousel-inner(role='listbox')
+    // First slide
+    .carousel-item.active
+      img.d-block.w-100(src='./img/dichvu/image.jpg' alt='First slide')
+    // /First slide
+    // Second slide
+    .carousel-item
+      img.d-block.w-100(src='./img/dichvu/image.jpg' alt='Second slide')
+    // /Second slide
+    // Third slide
+    .carousel-item
+      img.d-block.w-100(src='./img/dichvu/image.jpg' alt='Third slide')
+    // /Third slide
+    // /.Slides
+    // Controls
+    a.carousel-control-prev(href='#carousel-example-1z' role='button' data-slide='prev')
+      span.carousel-control-prev-icon(aria-hidden='true')
+      span.sr-only Previous
+    a.carousel-control-next(href='#carousel-example-1z' role='button' data-slide='next')
+      span.carousel-control-next-icon(aria-hidden='true')
+      span.sr-only Next
+    // /.Controls
+// /.Carousel Wrapper
