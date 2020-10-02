@@ -33,6 +33,10 @@ ul li{
     color: #444444;
     text-transform: unset;
 }
+.navbar .dropdown-menu a img{
+    display: none;
+    margin-right: 10px;
+}
 .navbar .dropdown-menu a:hover{
     color: #29CB75 !important;
     background-color: transparent !important;
@@ -49,6 +53,17 @@ ul li{
     text-transform: uppercase;
     color: #444444 !important;
     line-height: 22px;
+}
+.navbar-nav li a i{
+    display: none;
+}
+.navbar .navbar-toggler[aria-expanded="false"] i.iconmenu::before{
+    content: "\e90c";
+    font-family: 'Web_ToanTam' !important;
+}
+.navbar .navbar-toggler[aria-expanded="true"] i.iconmenu::before{
+    content: "\e903";
+    font-family: 'Web_ToanTam' !important;
 }
 .main_slider .carousel-caption h3{
     font-weight: 700;
@@ -500,5 +515,57 @@ ul li{
     }
     .pad100_60{
         padding: 100px 10px 30px 10px;
+    }
+    .mobile-header .container{
+        box-shadow: 0px 1px 5px rgba(135, 135, 135, 0.23);
+    }
+    .mobile-header #navbarSupportedContent{
+        position: absolute;
+        right: -100%;
+        top: 80px;
+        display: block; 
+    }
+    .mobile-header #navbarSupportedContent ul{
+        background: #fff;
+        position: absolute;
+        z-index: 3;
+        right: -15px;
+        top: 0;
+        padding: 30px;
+        box-shadow: 0px 1px 5px rgba(135, 135, 135, 0.23);
+    }
+    .mobile-header #navbarSupportedContent.show{
+        right: 0;
+    }
+    .mobile-header #navbarSupportedContent.show::before{
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 80px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+    }
+    .mobile-header .navbar .dropdown-menu{
+        position: unset !important;
+    }
+    .mobile-header .navbar-nav li a{
+        display: flex !important;
+        align-items: center;
+    }
+    .mobile-header .navbar-nav li a i{
+        display: block;
+        margin-right: 10px;
+    }
+    .mobile-header .navbar .dropdown-menu{
+        border-top: none;
+        padding: 0 32px;
+    }
+    .mobile-header .navbar .dropdown-menu a img{
+        display: block;
+    }
+    .mobile-header .navbar .dropdown-toggle::after{
+        display: none;
     }
 }
