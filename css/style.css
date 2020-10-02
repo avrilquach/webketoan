@@ -16,21 +16,24 @@ ul li{
 }
 .navbar{
     box-shadow: none;
+    padding: 0;
 }
 .navbar .nav-item {
-    padding: 0 15px;
+    padding: 30px 15px;
+}
+.navbar .nav-item.active, .navbar  .nav-item:hover{
+    border-bottom: 2px solid #29CB75;
+}
+.navbar .nav-item.dropdown:hover .dropdown-menu{
+    display: block;
 }
 .navbar .nav-item .nav-link{
     padding: 0
 }
-.navbar .nav-item:hover .nav-link, .navbar .nav-item.active .nav-link{
-    border-bottom: 1px solid #29CB75 ;
-}
 .navbar .dropdown-menu{
-    top: 51px;
+    top: 84px ;
     border-radius: 0;
     border: none;
-    border-top: 2px solid #29CB75;
     width: 100%;
     padding: 10px;
 }

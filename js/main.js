@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	var section1 = $('.main_section1');
 	section1.owlCarousel({
-			loop: true,
+			loop: false,
             nav: false,
 			items: 3,
-			autoplay: true,
+			autoplay: false,
 			smartSpeed: 200,
 			responsiveClass:true,
 				responsive:{
