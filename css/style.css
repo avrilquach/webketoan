@@ -66,13 +66,18 @@ ul li{
 .navbar-nav li a i{
     display: none;
 }
-.navbar .navbar-toggler[aria-expanded="false"] i.iconmenu::before{
+.navbar .navbar-toggler{
+    font-style: normal !important;
+}
+.navbar .navbar-toggler[aria-expanded="false"] .iconmenu::before{
     content: "\e90c";
     font-family: 'Web_ToanTam' !important;
+    font-size: 30px;
 }
-.navbar .navbar-toggler[aria-expanded="true"] i.iconmenu::before{
+.navbar .navbar-toggler[aria-expanded="true"] .iconmenu::before{
     content: "\e903";
     font-family: 'Web_ToanTam' !important;
+    font-size: 25px;
 }
 .main_slider .carousel-caption h3{
     font-weight: 700;
@@ -92,6 +97,7 @@ ul li{
    left: auto;
    right: 30px;
    bottom: 30px;
+   z-index: 7;
 }
 .main_slider .carousel-indicators li{
     background-color: #C4C4C4;
@@ -441,7 +447,7 @@ ul li{
     right: 30px;
     bottom: 0;
     margin-bottom: 50px;
-    z-index: 10;
+    z-index: 8;
 }
 .nav_right ul li{
     margin: 10px 0;
@@ -531,22 +537,35 @@ ul li{
     }
     .mobile-header{
         box-shadow: 0px 1px 5px rgba(135, 135, 135, 0.23);
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        background: #fff;
+        width: 100%;
     }
     .mobile-header #navbarSupportedContent{
-        position: absolute;
+        position: fixed;
         top: 80px;
         display: block;
         width: 100%;
+        height: 100%;
+        z-index: 30;
+        left: 0;
     }
     .mobile-header #navbarSupportedContent ul{
         background: #fff;
         position: absolute;
         z-index: 3;
         top: 0;
-        padding: 30px;
+        padding: 30px 15px;
         box-shadow: 0px 1px 5px rgba(135, 135, 135, 0.23);
         right: -100%;
         display: none;
+        height: 100%;
+        z-index: 30;
+    }
+    .mobile-header .navbar .dropdown-menu a{
+        padding: 5px;
     }
     .mobile-header #navbarSupportedContent.show ul{
         right: 0;
@@ -576,6 +595,7 @@ ul li{
     .mobile-header .navbar .dropdown-menu{
         border-top: none;
         padding: 0 32px;
+        display: block;
     }
     .mobile-header .navbar .dropdown-menu a img{
         display: block;
@@ -587,7 +607,7 @@ ul li{
         padding: 0 ;
     }
     .navbar .nav-item .nav-link{
-        padding: .5rem 1rem;
+        padding: 10px;
     }
     .mobile-header .navbar .nav-item:hover .nav-link, .mobile-header .navbar .nav-item.active .nav-link{
         border-bottom: none;

@@ -5,7 +5,7 @@ header.mobile-header
 			a.navbar-brand(href='#')
 				img(src='img/svg/logo.svg' alt='logo web ke toan')
 			button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
-				i.iconmenu
+				.iconmenu
 			#navbarSupportedContent.navbar-collapse
 				ul.navbar-nav.ml-auto
 					li.nav-item.active
@@ -33,12 +33,10 @@ header.mobile-header
 							a.dropdown-item(href='#') 
 								img(src="img/svg/icon-arrow.svg", alt="")
 								| Chữ ký số - Token
-					li.nav-item.dropdown
-						a#navbarDropdownMenuLink-444.nav-link.dropdown-toggle(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+					li.nav-item
+						a.nav-link(href='#')
 							i.icon-consultant
-							| Tư vấn thành lập công ty
-						.dropdown-menu.dropdown-default(aria-labelledby='navbarDropdownMenuLink-444')
-							a.dropdown-item(href='#') ...  
+							| Tư vấn thành lập công ty 
 					li.nav-item
 						a.nav-link(href='#') 
 							i.icon-price-list
