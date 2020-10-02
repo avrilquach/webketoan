@@ -17,8 +17,17 @@ ul li{
 .navbar{
     box-shadow: none;
 }
+.navbar .nav-item {
+    padding: 0 15px;
+}
+.navbar .nav-item .nav-link{
+    padding: 0
+}
+.navbar .nav-item:hover .nav-link, .navbar .nav-item.active .nav-link{
+    border-bottom: 1px solid #29CB75 ;
+}
 .navbar .dropdown-menu{
-    top: 59px;
+    top: 51px;
     border-radius: 0;
     border: none;
     border-top: 2px solid #29CB75;
@@ -110,6 +119,10 @@ ul li{
     line-height: 54px;
     padding: 0 20px;
 }
+.heading h2 span{
+    position: relative;
+    z-index: 3;
+}
 .heading h2 span.style1{
     color: #212121;
 }
@@ -124,6 +137,7 @@ ul li{
     width: 100%;
     left: 0;
     bottom: 10px;
+    z-index: 1;
 }
 .t p{
     font-weight: 300;
@@ -159,6 +173,9 @@ ul li{
 }
 .main_section2{
     background-color: #f5f5f5;
+}
+.main_section2 img{
+    max-width: 100%;
 }
 .tw440{
     width: 440px;
@@ -419,13 +436,10 @@ ul li{
 .page-footer .footer-links .social a{
     margin-right: 10px;
 }
-.nav_right{
-    position: relative;
-}
-.nav_right ul{
-    position: absolute;
-    right: 0;
-    bottom: 100%;
+.nav_right {
+    position: fixed;
+    right: 30px;
+    bottom: 0;
     margin-bottom: 50px;
 }
 .nav_right ul li{
@@ -437,6 +451,7 @@ ul li{
     display: flex;
     justify-content: center;
     border-radius: 50%;
+    box-shadow: 0 3px 10px #888;
 }
 .nav_right ul li a.bg1{
     background-color: #FF6600;
@@ -501,9 +516,6 @@ ul li{
     .heading h2::after{
         bottom: 5px;
     }
-    .main_section2 img{
-        max-width: 100%;
-    }
     .main_section3 .item, .main_section5 .item  {
         margin: 10px;
     }
@@ -516,25 +528,25 @@ ul li{
     .pad100_60{
         padding: 100px 10px 30px 10px;
     }
-    .mobile-header .container{
+    .mobile-header{
         box-shadow: 0px 1px 5px rgba(135, 135, 135, 0.23);
     }
     .mobile-header #navbarSupportedContent{
         position: absolute;
-        right: -100%;
         top: 80px;
-        display: block; 
+        display: block;
+        width: 100%;
     }
     .mobile-header #navbarSupportedContent ul{
         background: #fff;
         position: absolute;
         z-index: 3;
-        right: -15px;
         top: 0;
         padding: 30px;
         box-shadow: 0px 1px 5px rgba(135, 135, 135, 0.23);
+        right: -100%;
     }
-    .mobile-header #navbarSupportedContent.show{
+    .mobile-header #navbarSupportedContent.show ul{
         right: 0;
     }
     .mobile-header #navbarSupportedContent.show::before{
@@ -567,5 +579,14 @@ ul li{
     }
     .mobile-header .navbar .dropdown-toggle::after{
         display: none;
+    }
+    .mobile-header .navbar .nav-item {
+        padding: 0 ;
+    }
+    .navbar .nav-item .nav-link{
+        padding: .5rem 1rem;
+    }
+    .mobile-header .navbar .nav-item:hover .nav-link, .mobile-header .navbar .nav-item.active .nav-link{
+        border-bottom: none;
     }
 }
