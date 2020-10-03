@@ -689,18 +689,18 @@ ul li{
     margin-left: 10px;
     top: 14px;
 }
-.main_slider2 .carousel-indicators li{
+.main_slider2 .carousel-indicators li, .main_slider3 .carousel-indicators li{
     width: 10px;
     height: 10px;
     background: #C4C4C4;
     opacity: 1;
     border: none;
 }
-.main_slider2 .carousel-indicators{
+.main_slider2 .carousel-indicators, .main_slider3 .carousel-indicators {
     align-items: center;
     z-index: 7;
 }
-.main_slider2 .carousel-indicators li.active{
+.main_slider2 .carousel-indicators li.active, .main_slider3 .carousel-indicators li.active{
     width: 15px;
     height: 15px;
     background: #29CB75;
@@ -952,6 +952,89 @@ ul li{
 }
 .main_section11 .list .item p:nth-child(1){
     margin-right: 15px;
+}
+.main_slider3 .carousel-item::before{
+    content: "";
+    background: rgba(50, 144, 231, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.main_slider3 .carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_slider3 .carousel-item h2{
+  font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+}
+.news .right{
+    padding: 0 100px;
+}
+.news .left{
+    padding: 0 100px 0 0;
+}
+.news h3{
+    color: #000;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+.news p{
+    color: #636363 ;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.news a{
+    color: #3290E7;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+.news .item{
+    padding: 0;
+}
+.news .img_right{
+    position: relative;
+    width: 100%;
+}
+.news .img_right img{
+    width: 100%;
+}
+.news .img_right span{
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 400;
+    font-size: 15px; 
+    color: #fff;
+    background: rgba(41, 203, 117, 0.7);
+}
+.news .img_left{
+    position: relative;
+    width: 100%;
+}
+.news .img_left img{
+    width: 100%;
+}
+.news .img_left span{
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 15px; 
+    color: #fff;
+    background: rgba(41, 203, 117, 0.7);
 }
 @media (min-width: 1200px){
     .container{
