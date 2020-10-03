@@ -281,7 +281,7 @@ ul li{
 .main_section4 {
     background: url("../img/bgsection4.png") center center no-repeat #3290E7;
 }
-.main_section4 .heading h2 span {
+.main_section4 .heading h2 span, .main_section11 .heading h2 span {
     color: #fff;
 }
 .main_section4 .heading h2::after{
@@ -881,6 +881,62 @@ ul li{
 .main_section10 .quy-trinh .step5{
     bottom: 310px;
     right: 0;
+}
+.main_section11{
+    background: url("../img/tuvan/background.jpg") no-repeat top center;
+    position: relative
+}
+.main_section11::before{
+    content: "";
+    background: rgba(50, 144, 231, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.main_section11 .container{
+    position: relative;
+}
+.main_section11 .list .item_top{
+    padding: 20px 20px 20px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.main_section11 .list .item_top h5.left{
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+    color: #fff;
+}
+.main_section11 .list .item_top h5.left::after{
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 2px;
+    background-color: #fff;
+    right: -80px;
+    top: 14px;
+}
+.main_section11 .list .item_top h5.right{
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+}
+.main_section11 .list .item_top, .main_section11 .list .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_section11 .list .item{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 49px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  padding: 0 20px 0 10px;
+}
+.main_section11 .list .item p{
+    margin: 0;
 }
 @media (min-width: 1200px){
     .container{
