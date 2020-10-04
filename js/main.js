@@ -68,5 +68,8 @@ $(document).ready(function() {
 								items:3
 						}
 				}
-    });
+		});
+		$(".bang_gia .sidebar ul li").click(function(e){
+			$(this).toggleClass("active");
+		})
 });
