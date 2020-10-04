@@ -1,0 +1,83 @@
+doctype html
+html
+    include inc/head.jade
+    body
+        // Main Navigation
+        header.mobile-header
+          .container
+            nav.navbar.sticky-top.navbar-expand-xl
+              a.navbar-brand(href='#')
+                img(src='img/svg/logo.svg' alt='logo web ke toan')
+              button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                .iconmenu
+              #navbarSupportedContent.navbar-collapse
+                ul.navbar-nav.ml-auto
+                  li.nav-item
+                    a.nav-link(href='#')
+                      i.icon-home
+                      | Home 
+                      span.sr-only (current)
+                  li.nav-item.dropdown
+                    a#navbarDropdownMenuLink-333.nav-link.dropdown-toggle(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                      i.icon-accounting-services
+                      | Dịch vụ kế toán
+                    .dropdown-menu.dropdown-default(aria-labelledby='navbarDropdownMenuLink-333')
+                      a.dropdown-item(href='#') 
+                        img(src="img/svg/icon-arrow.svg", alt="")
+                        | Tư vấn pháp lý   
+                      a.dropdown-item(href='#') 
+                        img(src="img/svg/icon-arrow.svg", alt="")
+                        | Dịch vụ kế toán
+                      a.dropdown-item(href='#') 
+                        img(src="img/svg/icon-arrow.svg", alt="")
+                        | Hóa đơn điện tử
+                      a.dropdown-item(href='#') 
+                        img(src="img/svg/icon-arrow.svg", alt="")
+                        | Sở hữu trí tuệ
+                      a.dropdown-item(href='#') 
+                        img(src="img/svg/icon-arrow.svg", alt="")
+                        | Chữ ký số - Token
+                  li.nav-item
+                    a.nav-link(href='#')
+                      i.icon-consultant
+                      | Tư vấn thành lập công ty 
+                  li.nav-item
+                    a.nav-link(href='#') 
+                      i.icon-price-list
+                      | bảng giá
+                  li.nav-item.active
+                    a.nav-link(href='#') 
+                      i.icon-news
+                      | Tin tức
+        // Main Navigation
+        include inc/slider4.jade
+        .news_detail.pad60_0
+          .container
+            .row.align-items-center
+              .col-lg-8.content
+                h1 Kê khai nộp thuế điện tử là gì?
+                .description
+                  span.author Đăng bởi: _HongNhung
+                  span.date Đăng bởi: _HongNhung
+                  span.share
+                    span Chia sẻ:
+                    a(href="#")
+                      img(src="img/tintuc/facebook.svg", alt="")
+                    a(href="#")
+                      img(src="img/tintuc/Pinterest.svg", alt="")
+                    a(href="#")
+                      img(src="img/tintuc/Linkedin.svg", alt="")
+                    a(href="#")
+                      img(src="img/tintuc/Google.svg", alt="")
+                p Đây là một trong những lỗi phổ thông nhất mà người nộp mắc phải. Lỗi này do kế toán đăng ký nhầm ngân hàng, hoặc sai thông tin doanh nghiệp. Nếu đăng ký nhầm ngân hàng nộp thuế điện tử, kế toán cần đến chi nhánh gần nhất để thực hiện lệnh hủy. CN ngân hàng sẽ có căn cứ từ chối việc nộp thuế điện tử. 
+                p Còn với trường hợp đăng ký sai thông tin của doanh nghiệp, doanh nghiệp cần trực tiếp với chi nhánh ngân hàng. Ngân hàng sẽ thực hiện lệnh hỗ trợ hủy.
+                .img 
+                  img(src="img/tintuc/hinh2.jpg", alt="")
+                  h5 (Ảnh minh họa)
+                p Đây là một trong những lỗi phổ thông nhất mà người nộp mắc phải. Lỗi này do kế toán đăng ký nhầm ngân hàng, hoặc sai thông tin doanh nghiệp. Nếu đăng ký nhầm ngân hàng nộp thuế điện tử, kế toán cần đến chi nhánh gần nhất để thực hiện lệnh hủy. CN ngân hàng sẽ có căn cứ từ chối việc nộp thuế điện tử. 
+                p Còn với trường hợp đăng ký sai thông tin của doanh nghiệp, doanh nghiệp cần trực tiếp với chi nhánh ngân hàng. Ngân hàng sẽ thực hiện lệnh hỗ trợ hủy.
+              .col-lg-4
+
+        include inc/footer.jade
+        include inc/right.jade
+        include inc/script.jade 
