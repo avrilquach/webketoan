@@ -973,6 +973,7 @@ ul li{
     color: #fff;
     position: absolute;
     text-transform: uppercase;
+    margin: 0;
 }
 .news .right{
     padding: 0 100px;
@@ -1053,7 +1054,7 @@ ul li{
     color: #fff;
     text-decoration: none;
 }
-.pager a.page.active{
+.pager a.page.active, .pager a.page:hover {
     background-color: #00AC1C;
 }
 @media (min-width: 1200px){
@@ -1106,6 +1107,9 @@ ul li{
         right: -44px;
         top: 8px;
     }
+    .pager a{
+        margin: 0 5px;
+    }
 }
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-toggler {
@@ -1122,7 +1126,7 @@ ul li{
         left: 0;
         display: flex;
     }
-    .main_slider img.w-100, .main_slider2 img.w-100{
+    .main_slider img.w-100, .main_slider2 img.w-100, .main_slider3 img.w-100{
         width: auto !important;
     }
     .main_slider .carousel-caption h3{
@@ -1246,6 +1250,20 @@ ul li{
     }
     .main_section10 .quy-trinh .step.step5{
         height: auto;
+    }
+    .news{
+        margin: 0 15px;
+        padding: 30px 0;
+    }
+    .news .right, .news .left{
+        padding: 30px 0;
+    }
+    .news .img_left span{
+        left: auto;
+        right: 0;
+    }
+    .pager{
+        padding: 30px 0 0 0;
     }
     .mobile-header{
         box-shadow: 0px 1px 5px rgba(135, 135, 135, 0.23);
