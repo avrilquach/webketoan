@@ -8,6 +8,9 @@ ul{
 ul li{
     list-style: none;
 }
+.pad10_0{
+    padding: 10px 0;
+}
 .pad60_0{
     padding: 60px 0;
 }
@@ -1041,7 +1044,7 @@ ul li{
     padding: 60px 0 0 0;
 }
 .pager a{
-    margin: 0 20px;
+    margin: 0 10px;
 }
 .pager a.page{
     width: 42px;
@@ -1056,6 +1059,64 @@ ul li{
 }
 .pager a.page.active, .pager a.page:hover {
     background-color: #00AC1C;
+}
+.news_detail .content {
+    background: #FFFFFF;
+    padding: 30px; 
+}
+.news_detail{
+    background-color: #f8f8f8;
+}
+.news_detail .content h1{
+    font-weight: 700; 
+    font-size: 30px;
+    line-height: 40px;
+    color:  #000;
+}
+.news_detail .content p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px ;
+    color: #444444;
+}
+.news_detail .description{
+    display: flex;
+    margin-bottom: 10px ;
+    align-items: center;
+}
+.news_detail .description span.author{
+    padding: 0 20px 0 0;
+    margin: 0 20px 0 0;
+    border-right: 1px solid #CDCDCD;
+    font-weight: 400;
+    font-size: 15px;
+    color: #212121; 
+}
+.news_detail .description span.date{
+    padding: 0 20px 0 0;
+    margin: 0 20px 0 0;
+    border-right: 1px solid #CDCDCD;
+    font-weight: 300;
+    font-size: 15px;
+    color: #444444 ; 
+}
+.news_detail .description span.share span{
+    margin: 0 20px 0 0;
+    font-weight: 300;
+    font-size: 15px;
+    color: #444444 ; 
+}
+.news_detail .description span.share a{
+    margin-right: 10px;
+}
+.news_detail .content .img h5{
+    margin-top: 10px;
+    color: #636363;
+    font-weight: 300;
+    font-size: 15px;
+}
+.news_detail .text{
+    padding: 0 30px 0 0;
 }
 @media (min-width: 1200px){
     .container{
