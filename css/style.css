@@ -1061,7 +1061,7 @@ ul li{
 .pager a.page.active, .pager a.page:hover {
     background-color: #00AC1C;
 }
-.news_detail .content {
+.news_detail .content, .bang_gia .content {
     background: #FFFFFF;
     padding: 30px; 
 }
@@ -1284,6 +1284,34 @@ ul li{
     height: 1px;
     left: 0;
     bottom: 0;
+}
+.tablebox {
+    border: 1px solid #E3E3E3;
+    width: 100%;
+}
+.tablebox td {
+    padding: 15px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #444444;
+    border: 1px solid #E3E3E3;
+
+}
+.tablebox td:nth-child(1){
+    width: 60%;
+}
+.tablebox td:nth-child(2),.tablebox td:nth-child(3),.tablebox td:nth-child(4){
+    width: 15%;
+}
+.tablebox tr.head{
+    background: rgba(50, 144, 231, 0.2);
+    text-align: center;
+    vertical-align: middle;
+}
+.tablebox tr.head td{
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
 }
 @media (min-width: 1200px){
     .container{

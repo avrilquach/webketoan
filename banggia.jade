@@ -54,6 +54,32 @@ html
         .bang_gia.pad60_0
           .container
             .row
+              .col-lg-9.order-lg-1
+                .content
+                  .t.text-center
+                      .heading
+                          h2
+                              span.style1 BẢNG BÁO GIÁ DỊCH VỤ
+                  table.tablebox
+                    tr.head
+                      td GÓI 1A: bao gồm GPKD + Mã số thuế + Con dấu tròn Công ty
+                      td Phí DV
+                      td Lệ phí
+                      td Biểu mẫu
+                    tr
+                      td - Tư vấn: tên công ty, địa chỉ, ngành nghề, vốn điều lệ công ty
+                      td(rowspan="4") 250.000 đ
+                      td 650.000 đ
+                      td(rowspan="4")
+                        a(href="#").btn Download
+                        span Phiếu đăng ký
+                    tr
+                      td - Xin cấp GPKD, mã số thuế (mã số doanh nghiệp)
+                      td(rowspan="3") Gồm: 200.000 đ Lệ phí và 450.000 đ khắc Con dấu
+                    tr
+                      td - Khắc Con dấu tròn công ty
+                    tr
+                      td - Làm Thủ tục phát hành con dấu tại Sở KH&ĐT
               .col-lg-3
                 .sidebar
                   .box
@@ -107,6 +133,7 @@ html
                         a(href="#") Thành lập Công ty có vốn Nước Ngoài 
                       li
                         a(href="#") Thành lập Văn phòng đại diện Cty Nước Ngoài
+
         include inc/footer.jade
         include inc/right.jade
         include inc/script.jade 
