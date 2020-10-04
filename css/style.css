@@ -1036,6 +1036,26 @@ ul li{
     color: #fff;
     background: rgba(41, 203, 117, 0.7);
 }
+.pager{
+    padding: 60px 0 0 0;
+}
+.pager a{
+    margin: 0 20px;
+}
+.pager a.page{
+    width: 42px;
+    height: 42px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.pager a.page.active{
+    background-color: #00AC1C;
+}
 @media (min-width: 1200px){
     .container{
         max-width: 1300px;

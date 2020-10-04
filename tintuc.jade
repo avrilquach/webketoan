@@ -90,13 +90,15 @@ html
                 p Việc sử dụng phần mềm và tiến hành nộp thuế điện tử không phải lúc nào cũng thực hiện nhanh chóng nếu bạn gặp phải lỗi sai sót. Điều này sẽ xuất phát từ lỗi bất cẩn...
                 a(href="#") Xem thêm
             .pager
-              .row.align-items-center
+              .row.align-items-center.justify-content-center
                 a.prev
+                  img(src="img/tintuc/next.svg", alt="")
                 a(href="#").page.active 1
-                a(href="#").page.active 2
-                a(href="#").page.active 3
-                a(href="#").page.active 4
-                a.next 
+                a(href="#").page 2
+                a(href="#").page 3
+                a(href="#").page 4
+                a.next
+                  img(src="img/tintuc/prev.svg", alt="")
         include inc/footer.jade
         include inc/right.jade
         include inc/script.jade 
