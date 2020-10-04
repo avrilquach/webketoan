@@ -8,6 +8,10 @@ ul{
 ul li{
     list-style: none;
 }
+.colorblue{
+    color: #3290E7 !important;
+    font-weight: 700 !important;
+}
 .pad10_0{
     padding: 10px 0;
 }
@@ -1298,10 +1302,17 @@ ul li{
 
 }
 .tablebox td:nth-child(1){
-    width: 60%;
+    width: 58%;
+    text-align: left;
 }
-.tablebox td:nth-child(2),.tablebox td:nth-child(3),.tablebox td:nth-child(4){
+.tablebox td:nth-child(2){
     width: 15%;
+}
+.tablebox td:nth-child(3){
+    width: 15%;
+}
+.tablebox td:nth-child(4){
+    width: 12%;
 }
 .tablebox tr.head{
     background: rgba(50, 144, 231, 0.2);
@@ -1312,6 +1323,43 @@ ul li{
     font-weight: 400;
     font-size: 15px;
     color: #000;
+}
+.tablebox a.btn{
+    width: 120px;
+    height: 30px;
+    background-color: #3290E7;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bang_gia .content p.quote{
+    border-left: 6px solid #3290E7;
+    padding: 0 10px;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #212121;
+    text-transform: uppercase;
+}
+.bang_gia .content .item{
+    width: 49%;
+    background: #F9F9F9;
+    border: 1px solid #DCDCDC;
+    padding: 30px;
+    line-height: 30px;
+}
+.bang_gia .content .xem_them{
+    margin: 10px 0;
+    line-height: 30px;
+}
+.bang_gia .content .xem_them span{
+    color: #3290E7;
+    font-weight: 700;
+    font-size: 20px;
 }
 @media (min-width: 1200px){
     .container{
