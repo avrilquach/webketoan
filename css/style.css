@@ -1065,7 +1065,7 @@ ul li{
     background: #FFFFFF;
     padding: 30px; 
 }
-.news_detail{
+.news_detail, .bang_gia{
     background-color: #f8f8f8;
 }
 .news_detail .content h1{
@@ -1246,6 +1246,44 @@ ul li{
     font-size: 20px;
     font-weight: 400;
     color: #fff;
+}
+.bang_gia .sidebar
+{
+    padding: 0;
+}
+.bang_gia .sidebar ul{
+    padding: 0 15px;
+}
+.bang_gia .sidebar ul li{
+    padding: 20px 0;
+    border-bottom: 1px solid #F0F0F0;
+}
+.bang_gia .sidebar ul li:last-child{
+    border-bottom: none;
+}
+.bang_gia .sidebar ul li a{
+    font-weight: 300;
+    font-size: 15px;
+    color: #444444;
+}
+.bang_gia .sidebar .box h4{
+    padding: 15px;
+    background: rgba(50, 144, 231, 0.2);
+    font-weight: 700;
+    font-size: 20px;
+    color: #444444;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+}
+.bang_gia .sidebar .box h4::after{
+    position: absolute;
+    content: "";
+    background: #3290E7;
+    width: 76px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
 }
 @media (min-width: 1200px){
     .container{
