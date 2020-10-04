@@ -53,8 +53,8 @@ html
         include inc/slider4.jade
         .news_detail.pad60_0
           .container
-            .row.align-items-center
-              .col-lg-8
+            .row
+              .col-lg-9
                 .content
                   h1 Kê khai nộp thuế điện tử là gì?
                   .description
@@ -78,12 +78,13 @@ html
                       img(src="img/tintuc/hinh2.jpg", alt="")
                       h5 (Ảnh minh họa)
                   .d-flex.justify-content-between
-                    .text
+                    .text.right
                       p Đây là một trong những lỗi phổ thông nhất mà người nộp mắc phải. Lỗi này do kế toán đăng ký nhầm ngân hàng, hoặc sai thông tin doanh nghiệp.
+                      p Nếu đăng ký nhầm ngân hàng nộp thuế điện tử, kế toán cần đến chi nhánh gần nhất để thực hiện lệnh hủy. CN ngân hàng sẽ có căn cứ từ chối việc nộp thuế điện tử.
                       p Còn với trường hợp đăng ký sai thông tin của doanh nghiệp, doanh nghiệp cần trực tiếp với chi nhánh ngân hàng. Ngân hàng sẽ thực hiện lệnh hỗ trợ hủy. 
                         br
                         | Đây là một trong những lỗi phổ thông nhất mà người nộp mắc phải. Lỗi này do kế toán đăng ký nhầm ngân hàng, hoặc sai thông tin doanh nghiệp. 
-                    .img.right.pad10_0.right
+                    .img.pad10_0.right
                       img(src="img/tintuc/hinh3.jpg", alt="")              
                   p Đây là một trong những lỗi phổ thông nhất mà người nộp mắc phải. Lỗi này do kế toán đăng ký nhầm ngân hàng, hoặc sai thông tin doanh nghiệp. Nếu đăng ký nhầm ngân hàng nộp thuế điện tử, kế toán cần đến chi nhánh gần nhất để thực hiện lệnh hủy. CN ngân hàng sẽ có căn cứ từ chối việc nộp thuế điện tử. 
                   p Còn với trường hợp đăng ký sai thông tin của doanh nghiệp, doanh nghiệp cần trực tiếp với chi nhánh ngân hàng. Ngân hàng sẽ thực hiện lệnh hỗ trợ hủy.
@@ -120,8 +121,20 @@ html
                           h4 Những lỗi thường gặp khi kê khai nộp thuế điện tử
                           span 12/05/2020
                           p Việc sử dụng phần mềm và tiến hành nộp thuế điện tử không phải lúc nào cũng thực hiện nhanh chóng nếu bạn gặp phải lỗi sai sót. Điều này sẽ xuất phát từ lỗi bất cẩn...
-              .col-lg-4
-
+              .col-lg-3
+                .sidebar
+                  .news_others.small
+                    .heading2
+                      h3 Tin liên quan
+                    -for(i=0;i<4;i++)
+                      a(href='#').d-flex
+                        .img
+                          img(src="img/tintuc/hinh4.png", alt="")
+                        .text
+                          h4 Những lỗi thường gặp khi kê khai nộp thuế điện tử
+                          span 12/05/2020
+                    .banner
+                      h2 Banner
         include inc/footer.jade
         include inc/right.jade
         include inc/script.jade 

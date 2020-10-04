@@ -1213,7 +1213,40 @@ ul li{
 .news_others .img img{
     width: 100%;
 }
-
+.sidebar{
+    background-color: #fff;
+    padding: 15px;
+    height: 100%;
+}
+.news_others.small .text{
+    padding: 0 0 0 15px; 
+}
+.news_others.small .text h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.news_others.small .img{
+    width: 45%;
+}
+.news_others.small .text{
+    width: 55%;
+}
+.news_others.small a{
+    margin-top: 15px; 
+}
+.news_others .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Width: 100%;
+    Height: 232px;
+    background: #C4C4C4;
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
 @media (min-width: 1200px){
     .container{
         max-width: 1300px;
