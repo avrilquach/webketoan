@@ -164,7 +164,7 @@ ul li{
     color: #4a4a4a;
 }
 .t p span.color{
-    color: #3290E7; 
+    color: #3290E7;
 }
 .tw820{
     width: 820px;
@@ -281,7 +281,7 @@ ul li{
 }
 .main_section3 .item .card-body .quote p{
     padding: 0 20px;
-    font-weight: 400; 
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
 }
@@ -342,11 +342,11 @@ ul li{
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    color: #2e2e2e; 
+    color: #2e2e2e;
 }
 .main_section5 .item p{
     font-weight: 200;
-    font-size: 15px; 
+    font-size: 15px;
     line-height: 23px;
     color: #313131;
 }
@@ -361,7 +361,7 @@ ul li{
 .main_section6 .accordion {
     margin: 30px 0 0 0;
 }
-.main_section6 .card{    
+.main_section6 .card{
     background: #FFFFFF;
     border: 1px solid #ECECEC !important;
     box-sizing: border-box;
@@ -389,7 +389,7 @@ ul li{
 }
 .main_section6 .card-header a.collapsed::after{
     content: "+";
-  
+
 }
 .main_section6 .card-header a{
     display: flex;
@@ -407,7 +407,7 @@ ul li{
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    color: #000; 
+    color: #000;
     margin-right: 20px;
 }
 .main_section6 .card-body{
@@ -415,7 +415,7 @@ ul li{
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: #4a4a4a; 
+    color: #4a4a4a;
 }
 .page-footer{
     border-top: 6px solid #29CB75;
@@ -729,7 +729,7 @@ ul li{
     border-radius: 10px;
     font-weight: 400;
     font-size: 25px;
-    color: #fff; 
+    color: #fff;
     margin: 0 0 30px 0;
 }
 .main_section10{
@@ -815,8 +815,8 @@ ul li{
     position: absolute;
     right: 24px;
     top: 142px;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-top: 7px solid rgba(50, 144, 231, 0.5);
@@ -838,8 +838,8 @@ ul li{
     position: absolute;
     right: -92px;
     top: 20px;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
     border-left: 7px solid rgba(50, 144, 231, 0.5);
@@ -863,10 +863,10 @@ ul li{
 .main_section10 .quy-trinh .step3::after {
     content: "";
     position: absolute;
-    left : 18px; 
+    left : 18px;
     bottom: 184px;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 7px solid rgba(50, 144, 231, 0.5);
@@ -888,10 +888,10 @@ ul li{
 .main_section10 .quy-trinh .step4::after {
     content: "";
     position: absolute;
-    left : 18px; 
+    left : 18px;
     bottom: 184px;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 7px solid rgba(50, 144, 231, 0.5);
@@ -1024,7 +1024,7 @@ ul li{
     top: 0;
     right: 0;
     font-weight: 400;
-    font-size: 15px; 
+    font-size: 15px;
     color: #fff;
     background: rgba(41, 203, 117, 0.7);
 }
@@ -1041,7 +1041,7 @@ ul li{
     top: 0;
     left: 0;
     font-weight: 400;
-    font-size: 15px; 
+    font-size: 15px;
     color: #fff;
     background: rgba(41, 203, 117, 0.7);
 }
@@ -1067,13 +1067,13 @@ ul li{
 }
 .news_detail .content, .bang_gia .content {
     background: #FFFFFF;
-    padding: 30px; 
+    padding: 30px;
 }
 .news_detail, .bang_gia{
     background-color: #f8f8f8;
 }
 .news_detail .content h1{
-    font-weight: 700; 
+    font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     color:  #000;
@@ -1095,7 +1095,7 @@ ul li{
     border-right: 1px solid #CDCDCD;
     font-weight: 400;
     font-size: 15px;
-    color: #212121; 
+    color: #212121;
 }
 .news_detail .description span.date{
     padding: 0 20px 0 0;
@@ -1103,13 +1103,13 @@ ul li{
     border-right: 1px solid #CDCDCD;
     font-weight: 300;
     font-size: 15px;
-    color: #444444 ; 
+    color: #444444 ;
 }
 .news_detail .description span.share span{
     margin: 0 20px 0 0;
     font-weight: 300;
     font-size: 15px;
-    color: #444444 ; 
+    color: #444444 ;
 }
 .news_detail .description span.share a{
     margin-right: 10px;
@@ -1223,12 +1223,14 @@ ul li{
     height: 100%;
 }
 .news_others.small .text{
-    padding: 0 0 0 15px; 
+    padding: 0 0 0 15px;
 }
 .news_others.small .text h4{
     font-weight: 400;
     font-size: 16px;
     color: #000000;
+    overflow: hidden;
+    height: 57px;
 }
 .news_others.small .img{
     width: 45%;
@@ -1237,7 +1239,7 @@ ul li{
     width: 55%;
 }
 .news_others.small a{
-    margin-top: 15px; 
+    margin-top: 15px;
 }
 .news_others .banner{
     display: flex;
@@ -1379,7 +1381,7 @@ ul li{
     .main_section7 .box .item{
         background: url(../img/dichvu/Group-mobile2.png) center center no-repeat !important;
         width: 100%;
-        padding: 50px;   
+        padding: 50px;
     }
     .main_section9 .btn {
         font-size: 16px !important;
@@ -1404,7 +1406,7 @@ ul li{
         margin: 150px 0 0 0;
     }
     .main_section8::before{
-        top: -200px; 
+        top: -200px;
     }
     .main_section9 .btn {
         font-size: 20px;
@@ -1453,7 +1455,7 @@ ul li{
         width: 100%;
         padding: 30px 0 0 0;
     }
-    .tablebox tr.head td, .tablebox td {       
+    .tablebox tr.head td, .tablebox td {
         font-size: 12px;
         padding: 5px;
     }
@@ -1542,7 +1544,7 @@ ul li{
         width: 300px;
     }
     .main_section8 .container {
-        background: #f5f5f5; 
+        background: #f5f5f5;
     }
     .main_section9 .heading h2::after, .main_section9 .btn{
         width: 100%;
@@ -1593,10 +1595,10 @@ ul li{
         left: 28px;
         width: 1px;
         height: 76px;
-        top: 64px; 
+        top: 64px;
     }
     .main_section10 .quy-trinh .step::after{
-        right: auto; 
+        right: auto;
         left: 22px;
         border-left: 7px solid transparent;
         border-right: 7px solid transparent;
